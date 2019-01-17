@@ -73,6 +73,7 @@ func (t Transport) RoundTrip(r *http.Request) (*http.Response, error) {
 
 var jschlRegexp = regexp.MustCompile(`name="jschl_vc" value="(\w+)"`)
 var passRegexp = regexp.MustCompile(`name="pass" value="(.+?)"`)
+var sRegexp = regexp.MustCompile(`name="s" value="(.+?)"`)
 
 func (t Transport) solveChallenge(resp *http.Response) (*http.Response, error) {
 	time.Sleep(time.Second * 4) // Cloudflare requires a delay before solving the challenge
@@ -85,6 +86,10 @@ func (t Transport) solveChallenge(resp *http.Response) (*http.Response, error) {
 	resp.Body = ioutil.NopCloser(bytes.NewReader(b))
 
 	var params = make(url.Values)
+
+	if m := sRegexp.FindStringSubmatch(string(b)); len(m) > 0 {
+		params.Set("s", m[1])
+	}
 
 	if m := jschlRegexp.FindStringSubmatch(string(b)); len(m) > 0 {
 		params.Set("jschl_vc", m[1])
