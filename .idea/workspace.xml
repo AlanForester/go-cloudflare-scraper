@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d08777-2cad-41c8-9113-0ff4fc3bbf3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloudflare.go" beforeDir="false" afterPath="$PROJECT_DIR$/cloudflare.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/go-cloudflare-scraper.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudflare_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/cloudflare_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,13 +16,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/go_cloudflare_scraper$TestAll_in_github_com_cardigann_go_cloudflare_scrape.out" NAME="TestAll in github.com/cardigann/go-cloudflare-scrape Coverage Results" MODIFIED="1547759998840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloudflare.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="18" column="123" selection-start-line="18" selection-start-column="123" selection-end-line="18" selection-end-column="123" />
+            <state relative-caret-position="-282">
+              <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -45,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloudflare_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="183">
+              <caret line="55" column="56" lean-forward="true" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -74,6 +83,7 @@
       <list>
         <option value="$PROJECT_DIR$/_examples/challenge.html" />
         <option value="$PROJECT_DIR$/cloudflare.go" />
+        <option value="$PROJECT_DIR$/cloudflare_test.go" />
       </list>
     </option>
   </component>
@@ -134,6 +144,50 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="TestAll in github.com/cardigann/go-cloudflare-scrape" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-cloudflare-scraper" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/cardigann/go-cloudflare-scrape" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestAll$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestAll in github.com/cardigann/go-cloudflare-scrape" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestAll_in_github_com_cardigann_go-cloudflare-scrape - 2019.01.17 at 23h 08m 03s.xml">
+      <configuration name="TestAll in github.com/cardigann/go-cloudflare-scrape" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAll_in_github_com_cardigann_go-cloudflare-scrape - 2019.01.17 at 23h 14m 56s.xml">
+      <configuration name="TestAll in github.com/cardigann/go-cloudflare-scrape" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAll_in_github_com_cardigann_go-cloudflare-scrape - 2019.01.17 at 23h 15m 23s.xml">
+      <configuration name="TestAll in github.com/cardigann/go-cloudflare-scrape" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAll_in_github_com_cardigann_go-cloudflare-scrape - 2019.01.17 at 23h 16m 19s.xml">
+      <configuration name="TestAll in github.com/cardigann/go-cloudflare-scrape" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAll_in_github_com_cardigann_go-cloudflare-scrape - 2019.01.17 at 23h 18m 03s.xml">
+      <configuration name="TestAll in github.com/cardigann/go-cloudflare-scrape" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAll_in_github_com_cardigann_go-cloudflare-scrape - 2019.01.17 at 23h 20m 04s.xml">
+      <configuration name="TestAll in github.com/cardigann/go-cloudflare-scrape" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAll_in_github_com_cardigann_go-cloudflare-scrape - 2019.01.17 at 23h 20m 29s.xml">
+      <configuration name="TestAll in github.com/cardigann/go-cloudflare-scrape" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAll_in_github_com_cardigann_go-cloudflare-scrape - 2019.01.17 at 23h 20m 46s.xml">
+      <configuration name="TestAll in github.com/cardigann/go-cloudflare-scrape" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
@@ -143,7 +197,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -153,6 +207,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32977587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -187,10 +242,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloudflare_test.go">
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/robertkrimen/otto/cmpl_evaluate_expression.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="1672">
+          <caret line="175" column="23" selection-start-line="175" selection-start-column="19" selection-end-line="175" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -207,17 +262,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/robertkrimen/otto/cmpl_evaluate_expression.go">
+    <entry file="file://$PROJECT_DIR$/cloudflare.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="175" column="23" selection-start-line="175" selection-start-column="19" selection-end-line="175" selection-end-column="23" />
+        <state relative-caret-position="-282">
+          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloudflare.go">
+    <entry file="file://$PROJECT_DIR$/cloudflare_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="18" column="123" selection-start-line="18" selection-start-column="123" selection-end-line="18" selection-end-column="123" />
+        <state relative-caret-position="183">
+          <caret line="55" column="56" lean-forward="true" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
         </state>
       </provider>
     </entry>
