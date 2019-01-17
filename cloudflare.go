@@ -132,8 +132,6 @@ func (t Transport) solveChallenge(resp *http.Response) (*http.Response, error) {
 
 func (t Transport) evaluateJS(js string) (int64, error) {
 	vm := otto.New()
-    js = ` var a = {};` + js
-	js = js[:len(js)-17]
 	result, err := vm.Run(js)
 	if err != nil {
 		return 0, err
@@ -145,7 +143,7 @@ var jsRegexp = regexp.MustCompile(
 	`setTimeout\(function\(\){\s+(var ` +
 		`s,t,o,p,b,r,e,a,k,i,n,g,f.+?\r?\n[\s\S]+?a\.value =.+?)\r?\n`,
 )
-var jsReplace1Regexp = regexp.MustCompile(`a\.value = (parseInt\(.+?\)).+`)
+var jsReplace1Regexp = regexp.MustCompile(`a\.value = (.+?\)).+`)
 var jsReplace2Regexp = regexp.MustCompile(`\s{3,}[a-z](?: = |\.).+`)
 var jsReplace3Regexp = regexp.MustCompile(`[\n\\']`)
 
