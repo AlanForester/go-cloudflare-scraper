@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58d08777-2cad-41c8-9113-0ff4fc3bbf3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_examples/challenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/_examples/challenge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudflare.go" beforeDir="false" afterPath="$PROJECT_DIR$/cloudflare.go" afterDir="false" />
-    </list>
+    <list default="true" id="58d08777-2cad-41c8-9113-0ff4fc3bbf3b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloudflare.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="134" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="383">
+              <caret line="143" column="34" lean-forward="true" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -34,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_examples/challenge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="342">
+              <caret line="36" column="3895" selection-start-line="36" selection-start-column="3894" selection-end-line="36" selection-end-column="3895" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#noscript#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -186,8 +183,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_examples/challenge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="342">
+          <caret line="36" column="3895" selection-start-line="36" selection-start-column="3894" selection-end-line="36" selection-end-column="3895" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#noscript#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -213,8 +210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloudflare.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="383">
+          <caret line="143" column="34" lean-forward="true" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
         </state>
       </provider>
     </entry>
