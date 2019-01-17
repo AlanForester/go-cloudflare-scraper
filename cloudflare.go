@@ -16,7 +16,7 @@ import (
 	"github.com/robertkrimen/otto"
 )
 
-const userAgent = `Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36`
+const userAgent = `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36`
 
 type Transport struct {
 	upstream http.RoundTripper
