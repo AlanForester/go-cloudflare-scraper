@@ -59,7 +59,7 @@ func (t Transport) RoundTrip(r *http.Request) (*http.Response, error) {
 	if r.Header.Get("Referer") == "" {
 		r.Header.Set("Referer", r.URL.String())
 	}
-	
+
 	server_header := resp.Header.Get("Server")
 	if resp.StatusCode == 503 && (server_header == "cloudflare-nginx" || server_header == "cloudflare") {
 		log.Printf("Solving challenge for %s", resp.Request.URL.Hostname())
@@ -101,7 +101,6 @@ func (t Transport) solveChallenge(resp *http.Response) (*http.Response, error) {
 	if err != nil {
 		return nil, err
 	}
-
 	answer, err := t.evaluateJS(js)
 	if err != nil {
 		return nil, err
@@ -133,6 +132,8 @@ func (t Transport) solveChallenge(resp *http.Response) (*http.Response, error) {
 
 func (t Transport) evaluateJS(js string) (int64, error) {
 	vm := otto.New()
+    js = ` var a = {};` + js
+	js = js[:len(js)-17]
 	result, err := vm.Run(js)
 	if err != nil {
 		return 0, err
@@ -153,7 +154,6 @@ func (t Transport) extractJS(body string) (string, error) {
 	if len(matches) == 0 {
 		return "", errors.New("No matching javascript found")
 	}
-
 	js := matches[1]
 	js = jsReplace1Regexp.ReplaceAllString(js, "$1")
 	js = jsReplace2Regexp.ReplaceAllString(js, "")
